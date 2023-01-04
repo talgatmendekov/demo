@@ -19,6 +19,7 @@ function App() {
   ];
   return (
     <div className="App">
+      <h1>Hello world</h1>
       {/* <Expense expense={expense}/> */}
       <ExpenseItem
         title={expense[0].title}
